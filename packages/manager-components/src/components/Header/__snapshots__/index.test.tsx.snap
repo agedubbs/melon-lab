@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render correctly 1`] = `
+<div
+  className="jsx-__scopedHash header"
+>
+  <JSXStyle
+    css="__scoped"
+    styleId="__scopedHash"
+  />
+  <div
+    className="jsx-__scopedHash header__logo"
+  >
+    <Icon
+      height="25px"
+      name="logos_default"
+      width="25px"
+    />
+  </div>
+  <div
+    className="jsx-__scopedHash header__name"
+  >
+    Peter-Fund
+  </div>
+  <div
+    className="jsx-__scopedHash header__price"
+  >
+    <span
+      className="jsx-__scopedHash header__price-desc"
+    >
+      Share price:
+    </span>
+    <span
+      className="jsx-__scopedHash header__price-value"
+    >
+      1.000 MLN-T-M/Share
+    </span>
+  </div>
+  <div
+    className="jsx-__scopedHash header__price"
+  >
+    <span
+      className="jsx-__scopedHash header__price-desc"
+    >
+      AUM:
+    </span>
+    <span
+      className="jsx-__scopedHash header__price-value"
+    >
+      1.000 MLN-T-M/Share
+    </span>
+  </div>
+  <div
+    className="jsx-__scopedHash header__price"
+  >
+    <span
+      className="jsx-__scopedHash header__price-desc"
+    >
+      Ranking:
+    </span>
+    <span
+      className="jsx-__scopedHash header__price-value"
+    >
+      <span
+        className="jsx-__scopedHash header__price-value-important"
+      >
+        188
+      </span>
+       out of 287 Melon Funds
+    </span>
+  </div>
+  <div
+    className="jsx-__scopedHash header__account"
+  >
+    <span
+      className="jsx-__scopedHash header__account-address"
+    >
+      0xA5f0…2783
+    </span>
+    <span
+      className="jsx-__scopedHash header__account-balances"
+    >
+      <span
+        className="jsx-__scopedHash header__account-balance"
+      >
+        Ⓜ 8.0000
+      </span>
+      <span
+        className="jsx-__scopedHash header__account-balance"
+      >
+        Ξ 0.3543
+      </span>
+    </span>
+    <span
+      className="jsx-__scopedHash header__account-net"
+    >
+      kovan
+    </span>
+    <span
+      className="jsx-__scopedHash header__account-info"
+    >
+      Price feed down
+    </span>
+  </div>
+</div>
+`;

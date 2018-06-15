@@ -1,0 +1,79 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: var(--color-primary-dark);
+  font-size: var(--font-size-s);
+  min-width: 1200px;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 0;
+  line-height: 0;
+  padding: 0 var(--space-s);
+  border-right: 1px solid var(--color-primary-darkest);
+}
+
+.header__name {
+  padding: 0 var(--space-l);
+  font-weight: var(--font-weight-bold);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.header__price {
+  padding: 0 var(--space-xxl);
+  overflow: hidden;
+}
+
+.header__price-value,
+.header__price-desc {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.header__price-desc {
+  display: block;
+  font-size: var(--font-size-xs);
+  color: var(--color-grey);
+}
+
+.header__price-value {
+  display: block;
+  font-size: var(--font-size-s);
+}
+
+.header__price-value-important {
+  font-size: var(--font-size-s);
+  font-weight: var(--font-weight-bold);
+}
+
+.header__account {
+  flex-grow: 1;
+  text-align: right;
+  padding-right: var(--space-s);
+}
+
+.header__account-info,
+.header__account-balances,
+.header__account-balance:not(:first-child) {
+  &:before {
+    content: '|';
+    margin-right: var(--space-xxs);
+    padding-left: var(--space-xxs);
+    color: var(--color-grey);
+  }
+}
+
+.header__account-address {
+  color: var(--color-grey);
+}
+
+.header__account-info {
+  color: var(--color-loss)
+}
